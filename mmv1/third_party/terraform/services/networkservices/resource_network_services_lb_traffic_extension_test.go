@@ -1442,7 +1442,7 @@ resource "google_network_services_http_route" "default" {
   }
 }
 
-resource "google_network_services_lb_traffic_extension" ""default"" {
+resource "google_network_services_lb_traffic_extension" "default" {
   name     = "tf-test-l7-ilb-lb-traffic-extension%{random_suffix}"
   description = "my traffic extension"
   location = "us-west1"
